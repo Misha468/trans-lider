@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_Слой_1" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 153.48 155.06">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #9498a3;
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
+      }
+
+      .cls-2 {
+        fill: #1b1b1d;
+      }
+    </style>
+  </defs>
+  <ellipse class="cls-2" cx="76.74" cy="77.53" rx="76.74" ry="77.53"/>
+  <g>
+    <polygon class="cls-1" points="56.42 54.37 82.61 54.37 86.85 80.86 52.19 79.45 56.42 54.37"/>
+    <polygon class="cls-1" points="25.98 71.56 27.67 92.13 10.66 87.9 25.98 71.56"/>
+    <polyline class="cls-1" points="10.66 87.9 21.19 42.53 52.19 79.45"/>
+    <polyline class="cls-1" points="86.85 80.86 105.34 81.84 127.72 103.4 145.06 92.13 117.14 92.13"/>
+    <circle class="cls-1" cx="61.77" cy="97.48" r="11.55"/>
+    <circle class="cls-1" cx="100.09" cy="99.39" r="7.33"/>
+  </g>
+</svg>

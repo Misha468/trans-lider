@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_Слой_1" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 105 548">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 7px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g>
+    <line class="cls-1" x1="53" y1="31.5" x2="53" y2="519.5"/>
+    <polyline class="cls-1" points="16 117 54 27.52 90.41 117"/>
+  </g>
+  <rect class="cls-2" width="105" height="548"/>
+</svg>

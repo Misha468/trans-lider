@@ -1,0 +1,652 @@
+@media screen and (min-width: 1200px) {
+  /* Header */
+  header {
+    max-height: 125px;
+    min-height: 125px;
+    padding: 10px 3%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+  }
+  .navigaion-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  /* Footer */
+  footer {
+    margin-top: 50px;
+  }
+  .top-footer-part {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .right-side-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  #signs {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    justify-content: center;
+  }
+  /* Mains */
+  main {
+    width: 100%;
+    padding: 0 5%;
+  }
+  /* Landing */
+  #landing-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+  .cards-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    width: 90%;
+    filter: opacity(0.5);
+  }
+  .cards-photo {
+    width: 50%;
+  }
+  .landing-special-offer .hyper-title {
+    width: 1000px;
+  }
+  .back-part-special-offer {
+    position: absolute;
+    z-index: 1;
+    width: 75%;
+    left: -10%;
+  }
+
+  /* Catalog */
+  .catalog-element {
+    background-color: var(--black);
+    padding: 25px 50px;
+    width: 500px;
+    height: 400px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .catalog-icon {
+    width: 150px;
+  }
+  .catalog {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  /* Catalog element */
+  .catalog-element-page {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .top-bar-button,
+  .top-bar-void {
+    width: 10%;
+  }
+  .technic-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .techinc-card-parameters {
+    border: 2px solid var(--white);
+    padding: 10px 20px;
+    width: 750px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .techinc-card-parameters h1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .techinc-card-parameters h1 p {
+    font-size: var(--medium);
+  }
+  .top-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 3%;
+  }
+  .techinc-card-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    box-shadow: 0 0 10px var(--light-gray);
+    transition: all 0.3s ease;
+  }
+  .techinc-card-image-wrapper {
+    width: 40%;
+  }
+  .technic-card-title,
+  .techinc-card-image-wrapper p {
+    height: 10%;
+    font-size: var(--mega);
+  }
+  .techinc-card-image-wrapper div {
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+  }
+  .techinc-card-parameters {
+    display: flex;
+    flex-direction: column;
+  }
+  .divider {
+    flex: 1;
+    border-bottom: 2px solid var(--white);
+  }
+  /* Gallery */
+
+  /* About */
+  #about-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+  .description-wrapper .mega-title {
+    width: 80%;
+  }
+
+  /* Contacts */
+  #contacts-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+  .contact-info-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  /* Header */
+  header {
+    max-height: 150px;
+    min-height: 150px;
+    padding: 10px 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .navigaion-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  /* Footer */
+  footer {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  .top-footer-part {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  .right-side-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  #signs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  /* Mains */
+  /* Landing */
+  #landing-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+  .cards-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    width: 90%;
+    filter: opacity(0.5);
+  }
+  .cards-photo {
+    width: 50%;
+  }
+  .landing-special-offer .hyper-title {
+    width: 100%;
+    font-size: var(--mega);
+  }
+  .back-part-special-offer {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    left: -20%;
+  }
+
+  /* Catalog */
+  .catalog-element {
+    background-color: var(--black);
+    padding: 25px 50px;
+    width: 500px;
+    height: 400px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .catalog-icon {
+    width: 150px;
+  }
+  .catalog {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  /* Catalog element */
+  .catalog-element-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding: 0 3%;
+  }
+  .top-bar-button,
+  .top-bar-void {
+    width: 20%;
+  }
+  .technic-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .techinc-card-parameters {
+    border: 2px solid var(--white);
+    padding: 10px 20px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .techinc-card-parameters h1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .techinc-card-parameters h1 p {
+    font-size: var(--medium);
+  }
+  .top-bar-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .top-bar {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 3%;
+  }
+  .techinc-card-image {
+    height: 250px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px var(--light-gray);
+    transition: all 0.3s ease;
+  }
+  /* Gallery */
+
+  /* About */
+  #about-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+  .description-wrapper .mega-title {
+    width: 80%;
+  }
+
+  /* Contacts */
+  #contacts-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+  .contact-info-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .technic-card {
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  /* Header */
+  header {
+    max-height: max-content;
+    padding: 10px 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+  }
+  .navigaion-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 15px;
+    max-width: 80%;
+    flex-wrap: wrap;
+  }
+  /* Footer */
+  footer {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  .top-footer-part {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    padding: 10px;
+  }
+  .right-side-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  #signs {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  /* Mains */
+  /* Landing */
+  #landing-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+  .cards-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    width: 90%;
+    filter: opacity(0.5);
+  }
+  .cards-photo {
+    width: 50%;
+  }
+  .landing-special-offer {
+    min-height: 400px;
+  }
+  .landing-special-offer .hyper-title {
+    width: 100%;
+    font-size: var(--large);
+  }
+  .offer-description {
+    width: 100%;
+    font-size: var(--medium);
+  }
+  .back-part-special-offer {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    left: -20%;
+  }
+
+  /* Catalog */
+  .catalog-element {
+    background-color: var(--black);
+    padding: 25px 50px;
+    width: 500px;
+    height: 400px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .catalog-icon {
+    width: 150px;
+  }
+  .catalog {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  /* Catalog element */
+  .catalog-element-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding: 0 3%;
+  }
+  .techinc-card-parameters {
+    border: 2px solid var(--white);
+    padding: 10px 20px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .techinc-card-parameters h1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .techinc-card-parameters h1 p {
+    font-size: var(--medium);
+  }
+  .top-bar-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .top-bar {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 25px;
+    align-items: center;
+    padding: 0 3%;
+  }
+  .techinc-card-image {
+    height: 200px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px var(--light-gray);
+    transition: all 0.3s ease;
+  }
+  /* Gallery */
+
+  /* About */
+  #about-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+  .description-wrapper .mega-title {
+    width: 100%;
+    text-align: center;
+  }
+  /* Contacts */
+  #contacts-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+  .contact-info-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .contact-list-element {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid var(--light-gray);
+  }
+  .contact-list-element p,
+  a {
+    text-align: center;
+  }
+  .contact-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact-block-title {
+    text-align: center;
+    font-size: var(--large);
+  }
+  #contacts-address {
+    text-align: center;
+    font-size: var(--medium);
+  }
+}
+@media screen and (max-width: 700px) {
+  .video {
+    display: none;
+  }
+}
+@media screen and (max-width: 670px) {
+  main,
+  .catalog-element-page {
+    padding: 0;
+    width: 100%;
+  }
+  .technic-card {
+    max-width: 100%;
+    padding: 10px;
+  }
+  .techinc-card-image {
+    height: 175px;
+    box-shadow: 0 0 3px var(--light-gray);
+  }
+  .techinc-card-parameters h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid var(--light-gray);
+  }
+  .techinc-card-title {
+    font-size: var(--medium);
+    font-weight: bold;
+    text-align: center;
+  }
+  .parameter-title {
+    text-align: center;
+  }
+  .graphic-block-image {
+    display: none;
+  }
+  .offer-description {
+    font-size: var(--medium);
+    width: 100%;
+    max-width: max-content;
+  }
+  .front-part-special-offer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+  }
+  .offer-text .hyper-title {
+    text-align: center;
+    font-size: var(--medium);
+  }
+  .offer-button {
+    width: 50px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .catalog-element {
+    background-color: var(--black);
+    padding: 10px 25px;
+    width: 300px;
+    height: 200px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .catalog-icon {
+    width: 100px;
+  }
+  .catalog-element p {
+    font-size: var(--medium);
+  }
+  .graphic-block-lines div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 1500px) {
+  .technic-card {
+    display: flex;
+    flex-direction: column;
+  }
+}
