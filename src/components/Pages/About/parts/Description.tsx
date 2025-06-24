@@ -10,10 +10,6 @@ export default function Description() {
           <div className="flex flex-row gap-5">
             <p className="graphic-block-lines-element">Гибкость</p>
           </div>
-          <div className="flex flex-row gap-5 items-center">
-            <p className="graphic-block-lines-element">Приятная цена</p>
-            <p className="uppercase large-title">И мы продолжаем расти!</p>
-          </div>
           <div className="flex flex-row gap-5">
             <p className="graphic-block-lines-element">
               Широкий спектр решаемых задач
@@ -21,10 +17,13 @@ export default function Description() {
           </div>
         </div>
       </div>
-      <p className="mega-title uppercase">
-        Выбирайте надёжного партнера звоните прямо сейчас в "ТРАНС-ЛИДЕР" и
-        начнем работу!
-      </p>
+      <div className="flex flex-col gap-[100px] items-center">
+        <p className="uppercase mega-title w-3/5">И мы продолжаем расти!</p>
+        <p className="mega-title uppercase">
+          Выбирайте надёжного партнера звоните прямо сейчас в "ТРАНС-ЛИДЕР" и
+          начнем работу!
+        </p>
+      </div>
     </section>
   );
 }

@@ -168,9 +168,6 @@
     align-items: center;
     gap: 50px;
   }
-  .description-wrapper .mega-title {
-    width: 80%;
-  }
 
   /* Contacts */
   #contacts-page {
