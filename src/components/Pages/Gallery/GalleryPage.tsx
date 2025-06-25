@@ -1,10 +1,10 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import GalleryList from "../../Lists/GalleryList";
 import { Autoplay, Pagination } from "swiper/modules";
-import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/css/autoplay";
-
+import "../../../../node_modules/swiper/swiper-bundle.css";
+import "../../../../node_modules/swiper/swiper.css";
+import "../../../../node_modules/swiper/modules/autoplay.css";
+import "../../../../node_modules/swiper/modules/pagination.css";
 export default function GalleryPage() {
   return (
     <main id="gallery-page">
