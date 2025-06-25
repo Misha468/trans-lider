@@ -1,7 +1,11 @@
 import { IoLocationOutline } from "react-icons/io5";
 import { IoCallOutline } from "react-icons/io5";
 import PhoneNumbersList from "../../../Lists/PhoneNumbersList";
+import Pdf from "../../../../assets/files/privacy-police.pdf";
 export default function LeftSide() {
+  const openPdf = () => {
+    window.open(Pdf, "_blank");
+  };
   return (
     <section className="flex flex-col gap-5">
       <p className="mega-title">КОНТАКТЫ</p>
@@ -23,6 +27,9 @@ export default function LeftSide() {
           ))}
         </ul>
       </div>
+      <button className="privacy" onClick={openPdf}>
+        Политика конфиденциальности
+      </button>
     </section>
   );
 }

@@ -368,3 +368,13 @@ a {
 .offer-image {
   filter: opacity(0.5);
 }
+.privacy {
+  text-align: center;
+  font-size: var(--medium);
+  color: var(--white);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.privacy:hover {
+  color: var(--light-gray);
+}
