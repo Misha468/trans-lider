@@ -1,7 +1,7 @@
-import Dump from "../../assets/static/catalogIcons/dump.svg";
-import Crane from "../../assets/static/catalogIcons/crane.svg";
-import Loader from "../../assets/static/catalogIcons/loader.svg";
-import Exavator from "../../assets/static/catalogIcons/excavator.svg";
+import dump from "../../assets/static/catalogIcons/dump.svg";
+import crane from "../../assets/static/catalogIcons/crane.svg";
+import loader from "../../assets/static/catalogIcons/loader.svg";
+import exavator from "../../assets/static/catalogIcons/excavator.svg";
 import KAMAZ65115 from "../../assets/static/catalogPhotos/kamaz65115.png";
 import KAMAZ43118 from "../../assets/static/catalogPhotos/kamaz43118.png";
 import ZoomLion from "../../assets/static/catalogPhotos/zoomlion.png";
@@ -14,7 +14,7 @@ const CatalogList = [
   {
     id: 1,
     title: "автокран",
-    image: Crane,
+    image: crane,
     technic: [
       {
         id: 1,
@@ -138,7 +138,7 @@ const CatalogList = [
   {
     id: 2,
     title: "экскаватор-гусеничный",
-    image: Exavator,
+    image: exavator,
     technic: [
       {
         id: 1,
@@ -219,7 +219,7 @@ const CatalogList = [
   {
     id: 3,
     title: "экскаватор-погрузчик",
-    image: Loader,
+    image: loader,
     technic: [
       {
         id: 1,
@@ -310,7 +310,7 @@ const CatalogList = [
   {
     id: 4,
     title: "самосвал",
-    image: Dump,
+    image: dump,
     technic: [
       {
         id: 1,

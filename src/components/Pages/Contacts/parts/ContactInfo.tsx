@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 import ContactsList from "../../../Lists/ContactsList";
 import Requisites from "./Requisites";
 
@@ -15,7 +16,7 @@ export default function ContactInfo() {
               {item.contacts.map((contact) => (
                 <li key={contact.id} className="contact-list-element">
                   <p>{contact.title}</p>
-                  <a href={contact.link}>{contact.text}</a>
+                  <Link to={contact.link}>{contact.text}</Link>
                 </li>
               ))}
             </ul>

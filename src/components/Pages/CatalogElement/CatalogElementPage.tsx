@@ -17,19 +17,20 @@ export default function CatalogElementPage() {
   const navigate = useNavigate();
   const [items, setItems] = useState<Technic[]>([]);
   useEffect(() => {
-    {
-      CatalogList.map((item) => {
-        if (item.title === title) {
-          setItems(item.technic);
-        }
-      });
-    }
+    CatalogList.map((item) => {
+      if (item.title === title) {
+        setItems(item.technic);
+      }
+    });
   });
+  const handleNavigate = () => {
+    navigate("/каталог");
+  };
   return (
     <main className="catalog-element-page">
       <div className="top-bar">
         <button
-          onClick={() => navigate("/каталог")}
+          onClick={handleNavigate}
           className="custom-button top-bar-button"
         >
           НАЗАД

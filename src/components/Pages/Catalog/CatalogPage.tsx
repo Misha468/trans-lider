@@ -2,7 +2,7 @@ import CatalogList from "../../Lists/CatalolgList";
 import { useNavigate } from "react-router-dom";
 export default function CatalogPage() {
   const navigate = useNavigate();
-  const handleNavigate = (item: any) => {
+  const handleNavigate = (item: { title: string }) => {
     navigate(`/каталог/${item.title}`);
   };
   return (
