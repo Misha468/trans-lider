@@ -1,21 +1,27 @@
-import technic1 from "../../assets/static/galleryPhotos/technic1.png";
-import technic2 from "../../assets/static/galleryPhotos/technic2.png";
-import technic3 from "../../assets/static/galleryPhotos/technic3.png";
+import zoomLion1 from "../../assets/static/galleryPhotos/ZoomLion1.jpg";
+import zoomLion2 from "../../assets/static/galleryPhotos/ZoomLion2.jpg";
+import zoomLion3 from "../../assets/static/galleryPhotos/ZoomLion3.jpg";
+import zoomLion4 from "../../assets/static/galleryPhotos/ZoomLion4.jpg";
 const GalleryList = [
   {
     id: 1,
-    image: technic1,
-    title: "Кран-манипулятор на базе КАМАЗ и автовышка",
+    image: zoomLion1,
+    title: "Автокран ZoomLion",
   },
   {
     id: 2,
-    image: technic2,
-    title: "Экскаватор-погрузчик JCB за работой",
+    image: zoomLion2,
+    title: "Автокран ZoomLion",
   },
   {
     id: 3,
-    image: technic3,
-    title: "Экскаватор-погрузчик JCB за работой",
+    image: zoomLion3,
+    title: "Автокран ZoomLion",
+  },
+    {
+    id: 4,
+    image: zoomLion4,
+    title: "Автокран ZoomLion",
   },
 ];
 export default GalleryList;
