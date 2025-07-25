@@ -1,10 +1,10 @@
 import { IoLocationOutline } from "react-icons/io5";
 import { IoCallOutline } from "react-icons/io5";
 import PhoneNumbersList from "../../../Lists/PhoneNumbersList";
-import Pdf from "../../../../assets/files/privacy-police.pdf";
+const PdfUrl = "https://trans-lider.ru/f/privacy-police.pdf";
 export default function LeftSide() {
   const openPdf = () => {
-    window.open(Pdf, "_blank");
+    window.open(PdfUrl, "_blank");
   };
   return (
     <section className="flex flex-col gap-5">

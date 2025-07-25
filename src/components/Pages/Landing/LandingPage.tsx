@@ -1,12 +1,12 @@
-import Landing from "../../../assets/static/Landing.png";
-import ButtonIcon from "../../../assets/static/button.svg";
+const landing = "https://trans-lider.ru/d/landing.png";
+const buttonIcon = "https://trans-lider.ru/d/button.svg";
 import Cards from "./parts/Cards";
 import { NavLink } from "react-router";
 import SpcecialOffer from "../../Lists/SpecialOffer";
 export default function LandingPage() {
   return (
     <main id="landing-page">
-      <img src={Landing} alt="Приветственное изображение" />
+      <img src={landing} alt="Приветственное изображение" />
       <Cards />
       {SpcecialOffer.map((item) => (
         <div className="landing-special-offer">
@@ -26,7 +26,7 @@ export default function LandingPage() {
             <div className="offer-button-wrapper">
               <NavLink to={item.link}>
                 <img
-                  src={ButtonIcon}
+                  src={buttonIcon}
                   className="offer-button"
                   alt="Кнопка для перехода"
                 />

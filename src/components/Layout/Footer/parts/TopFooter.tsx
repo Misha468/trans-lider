@@ -1,5 +1,5 @@
 import LeftSide from "./LeftSide";
-import logo from "../../../../assets/static/logo.svg";
+const LogoUrl = "https://trans-lider.ru/d/logo.svg";
 export default function TopFooter() {
   function scrollToTop() {
     console.log("scroll");
@@ -13,7 +13,7 @@ export default function TopFooter() {
       <LeftSide />
       <section className="right-side-footer">
         <img
-          src={logo}
+          src={LogoUrl}
           className="w-4/5"
           id="footer-logo"
           alt="Логотип | Logo"

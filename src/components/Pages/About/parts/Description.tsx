@@ -1,10 +1,10 @@
-import Arrow from "../../../../assets/static/arrow.svg";
+const ArrowUrl = "https://trans-lider.ru/d/arrow.svg";
 export default function Description() {
   return (
     <section className="description-wrapper">
       <div className="graphic-block">
         <div className="graphic-block-image-wrapper">
-          <img src={Arrow} alt="Стрелочка" className="graphic-block-image" />
+          <img src={ArrowUrl} alt="Стрелочка" className="graphic-block-image" />
         </div>
         <div className="graphic-block-lines">
           <div className="flex flex-row gap-5">

@@ -1,25 +1,13 @@
-import dump from "../../assets/static/catalogIcons/dump.svg";
-import crane from "../../assets/static/catalogIcons/crane.svg";
-import loader from "../../assets/static/catalogIcons/loader.svg";
-import exavator from "../../assets/static/catalogIcons/excavator.svg";
-import KAMAZ65115 from "../../assets/static/catalogPhotos/kamaz65115.png";
-import KAMAZ43118 from "../../assets/static/catalogPhotos/kamaz43118.png";
-import ZoomLion from "../../assets/static/catalogPhotos/zoomlion.png";
-import Cukurova from "../../assets/static/catalogPhotos/cukurova.png";
-import JCB from "../../assets/static/catalogPhotos/jcb5x.png";
-import KAMAZ6522 from "../../assets/static/catalogPhotos/kamaz6522.png";
-import SANY from "../../assets/static/catalogPhotos/sany.png";
-import LGCE from "../../assets/static/catalogPhotos/lgce.png";
 const CatalogList = [
   {
     id: 1,
     title: "автокран",
-    image: crane,
+    image: "https://trans-lider.ru/d/crane.svg",
     technic: [
       {
         id: 1,
         title: "Камаз 65115 КС-55713-1К-3",
-        image: KAMAZ43118,
+        image: "https://trans-lider.ru/d/kamaz43118.png",
         parameters: [
           {
             id: 1,
@@ -56,7 +44,7 @@ const CatalogList = [
       {
         id: 2,
         title: "Камаз 43118 КЛИНЦЫ КС-55713-5К-4В",
-        image: KAMAZ65115,
+        image: "https://trans-lider.ru/d/kamaz65115.png",
         parameters: [
           {
             id: 1,
@@ -93,7 +81,7 @@ const CatalogList = [
       {
         id: 3,
         title: "ZOOMLION ZTC300V",
-        image: ZoomLion,
+        image: "https://trans-lider.ru/d/zoomlion.png",
         parameters: [
           {
             id: 1,
@@ -138,12 +126,12 @@ const CatalogList = [
   {
     id: 2,
     title: "экскаватор-гусеничный",
-    image: exavator,
+    image: "https://trans-lider.ru/d/excavator.svg",
     technic: [
       {
         id: 1,
         title: "SANY SY215C",
-        image: SANY,
+        image: "https://trans-lider.ru/d/sany.png",
         parameters: [
           {
             id: 1,
@@ -180,7 +168,7 @@ const CatalogList = [
       {
         id: 2,
         title: "LGCE E6255F",
-        image: LGCE,
+        image: "https://trans-lider.ru/d/lgce.png",
         parameters: [
           {
             id: 1,
@@ -219,12 +207,12 @@ const CatalogList = [
   {
     id: 3,
     title: "экскаватор-погрузчик",
-    image: loader,
+    image: "https://trans-lider.ru/d/loader.svg",
     technic: [
       {
         id: 1,
         title: "CUKUROVA 885",
-        image: Cukurova,
+        image: "https://trans-lider.ru/d/cukurova.png",
         parameters: [
           {
             id: 1,
@@ -266,7 +254,7 @@ const CatalogList = [
       {
         id: 2,
         title: "JCB 5CX 15H2WA",
-        image: JCB,
+        image: "https://trans-lider.ru/d/jcb5x.png",
         parameters: [
           {
             id: 1,
@@ -310,12 +298,12 @@ const CatalogList = [
   {
     id: 4,
     title: "самосвал",
-    image: dump,
+    image: "https://trans-lider.ru/d/dump.svg",
     technic: [
       {
         id: 1,
         title: "Камаз 6522-43",
-        image: KAMAZ6522,
+        image: "https://trans-lider.ru/d/kamaz6522.png",
         parameters: [
           {
             id: 1,

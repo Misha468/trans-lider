@@ -1,8 +1,7 @@
-import JCB from "../../assets/static/catalogPhotos/jcb5x.png";
 const SpcecialOffer = [
   {
     id: 1,
-    image: JCB,
+    image: "https://trans-lider.ru/d/jcb5x.png",
     title: "Специальные условия на услуги экскаватора-погрузчика!",
     description:
       "Впереди холода! Все меньше времени остается на выполнение строительных, земельных и дорожных работ! Наша компания готова предлодить услуги экскаватора-погрузчика JCB на специальных условиях!",

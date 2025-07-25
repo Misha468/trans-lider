@@ -1,20 +1,20 @@
-import Card1 from "../../../../assets/static/landingPhotos/catalogCard.jpg";
-import Card2 from "../../../../assets/static/landingPhotos/contactsCard.jpg";
-import ButtonIcon from "../../../../assets/static/button.svg";
+const card1Url = "https://trans-lider.ru/d/catalogcard.jpg";
+const card2Url = "https://trans-lider.ru/d/contactscard.jpg";
+const buttonIcon = "https://trans-lider.ru/d/button.svg";
 import ImageHoverEffect from "./ImageHoverComponent";
 const CardsList = [
   {
     id: 1,
-    img: Card1,
+    img: card1Url,
     hoverText: "Каталог",
-    buttonImage: ButtonIcon,
+    buttonImage: buttonIcon,
     link: "/каталог",
   },
   {
     id: 2,
-    img: Card2,
+    img: card2Url,
     hoverText: "Контакты",
-    buttonImage: ButtonIcon,
+    buttonImage: buttonIcon,
     link: "/контакты",
   },
 ];

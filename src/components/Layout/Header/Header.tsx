@@ -1,10 +1,10 @@
 import { NavLink } from "react-router";
-import logo from "../../../assets/static/logo.svg";
 import NavigationList from "../../Lists/NavigationList";
+const LogoUrl = "https://trans-lider.ru/d/logo.svg";
 export default function Header() {
   return (
     <header className="w-full">
-      <img src={logo} id="logo" alt="Логотип | Logo" />
+      <img src={LogoUrl} id="logo" alt="Логотип | Logo" />
       <ul className="navigaion-menu w-full">
         {NavigationList.map((item) => (
           <li key={item.id}>
